@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		EEDE31761D526F1E001B4F89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDE31751D526F1E001B4F89 /* main.m */; };
 		EEDE31791D526F1E001B4F89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDE31781D526F1E001B4F89 /* AppDelegate.m */; };
-		EEDE317C1D526F1E001B4F89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDE317B1D526F1E001B4F89 /* ViewController.m */; };
-		EEDE317F1D526F1E001B4F89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDE317D1D526F1E001B4F89 /* Main.storyboard */; };
 		EEDE31811D526F1E001B4F89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEDE31801D526F1E001B4F89 /* Assets.xcassets */; };
 		EEDE31841D526F1E001B4F89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDE31821D526F1E001B4F89 /* LaunchScreen.storyboard */; };
+		EEDE318D1D526F54001B4F89 /* FriendsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDE318C1D526F54001B4F89 /* FriendsTableViewController.m */; };
+		EEDE31901D5271BE001B4F89 /* APIController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDE318F1D5271BE001B4F89 /* APIController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +20,13 @@
 		EEDE31751D526F1E001B4F89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EEDE31771D526F1E001B4F89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EEDE31781D526F1E001B4F89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EEDE317A1D526F1E001B4F89 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EEDE317B1D526F1E001B4F89 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EEDE317E1D526F1E001B4F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEDE31801D526F1E001B4F89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEDE31831D526F1E001B4F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEDE31851D526F1E001B4F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEDE318B1D526F54001B4F89 /* FriendsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsTableViewController.h; sourceTree = "<group>"; };
+		EEDE318C1D526F54001B4F89 /* FriendsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsTableViewController.m; sourceTree = "<group>"; };
+		EEDE318E1D5271BE001B4F89 /* APIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIController.h; sourceTree = "<group>"; };
+		EEDE318F1D5271BE001B4F89 /* APIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +61,10 @@
 			children = (
 				EEDE31771D526F1E001B4F89 /* AppDelegate.h */,
 				EEDE31781D526F1E001B4F89 /* AppDelegate.m */,
-				EEDE317A1D526F1E001B4F89 /* ViewController.h */,
-				EEDE317B1D526F1E001B4F89 /* ViewController.m */,
-				EEDE317D1D526F1E001B4F89 /* Main.storyboard */,
+				EEDE318B1D526F54001B4F89 /* FriendsTableViewController.h */,
+				EEDE318C1D526F54001B4F89 /* FriendsTableViewController.m */,
+				EEDE318E1D5271BE001B4F89 /* APIController.h */,
+				EEDE318F1D5271BE001B4F89 /* APIController.m */,
 				EEDE31801D526F1E001B4F89 /* Assets.xcassets */,
 				EEDE31821D526F1E001B4F89 /* LaunchScreen.storyboard */,
 				EEDE31851D526F1E001B4F89 /* Info.plist */,
@@ -138,7 +140,6 @@
 			files = (
 				EEDE31841D526F1E001B4F89 /* LaunchScreen.storyboard in Resources */,
 				EEDE31811D526F1E001B4F89 /* Assets.xcassets in Resources */,
-				EEDE317F1D526F1E001B4F89 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEDE317C1D526F1E001B4F89 /* ViewController.m in Sources */,
+				EEDE31901D5271BE001B4F89 /* APIController.m in Sources */,
+				EEDE318D1D526F54001B4F89 /* FriendsTableViewController.m in Sources */,
 				EEDE31791D526F1E001B4F89 /* AppDelegate.m in Sources */,
 				EEDE31761D526F1E001B4F89 /* main.m in Sources */,
 			);
@@ -158,14 +160,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EEDE317D1D526F1E001B4F89 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EEDE317E1D526F1E001B4F89 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EEDE31821D526F1E001B4F89 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

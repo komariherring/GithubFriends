@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "FriendsTableViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    FriendsTableViewController *friendsTVC = [[FriendsTableViewController alloc]initWithStyle:UITableViewStylePlain];
+    
+    UINavigationController *navC = [[UINavigationController alloc] initWithRootViewController:friendsTVC];
+    
+    self.window.rootViewController = navC;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
