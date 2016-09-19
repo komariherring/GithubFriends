@@ -8,9 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol SearchTextFieldDelegate
+
+-(void)searchWasTyped:(NSString *)userToLookUp;
+
+@end
+
 @protocol APIControllerProtocol
 
-- (void)didReceiveAPIResults: (NSArray *)results; 
+-(void)didReceiveAPIResults:(NSDictionary *)gitHubResponse;
 
 @end
 

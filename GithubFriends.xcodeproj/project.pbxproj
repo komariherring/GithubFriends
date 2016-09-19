@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE60AD301D9037F3008B049A /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = EE60AD2F1D9037F3008B049A /* Friend.m */; };
+		EE60AD331D903987008B049A /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE60AD321D903987008B049A /* SearchViewController.m */; };
+		EE60AD361D903B06008B049A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE60AD351D903B06008B049A /* DetailViewController.m */; };
+		EE60AD3A1D903EF6008B049A /* luke.png in Resources */ = {isa = PBXBuildFile; fileRef = EE60AD391D903EF6008B049A /* luke.png */; };
+		EE60AD3C1D903F0F008B049A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE60AD3B1D903F0F008B049A /* Main.storyboard */; };
 		EEDE31761D526F1E001B4F89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDE31751D526F1E001B4F89 /* main.m */; };
 		EEDE31791D526F1E001B4F89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDE31781D526F1E001B4F89 /* AppDelegate.m */; };
 		EEDE31811D526F1E001B4F89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEDE31801D526F1E001B4F89 /* Assets.xcassets */; };
@@ -16,6 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE60AD2E1D9037F3008B049A /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		EE60AD2F1D9037F3008B049A /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
+		EE60AD311D903987008B049A /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		EE60AD321D903987008B049A /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		EE60AD341D903B06008B049A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		EE60AD351D903B06008B049A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		EE60AD391D903EF6008B049A /* luke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = luke.png; path = ../luke.png; sourceTree = "<group>"; };
+		EE60AD3B1D903F0F008B049A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		EEDE31711D526F1E001B4F89 /* GithubFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEDE31751D526F1E001B4F89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EEDE31771D526F1E001B4F89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,12 +74,19 @@
 			children = (
 				EEDE31771D526F1E001B4F89 /* AppDelegate.h */,
 				EEDE31781D526F1E001B4F89 /* AppDelegate.m */,
-				EEDE318B1D526F54001B4F89 /* FriendsTableViewController.h */,
-				EEDE318C1D526F54001B4F89 /* FriendsTableViewController.m */,
 				EEDE318E1D5271BE001B4F89 /* APIController.h */,
 				EEDE318F1D5271BE001B4F89 /* APIController.m */,
-				EEDE31801D526F1E001B4F89 /* Assets.xcassets */,
+				EE60AD341D903B06008B049A /* DetailViewController.h */,
+				EE60AD351D903B06008B049A /* DetailViewController.m */,
+				EE60AD2E1D9037F3008B049A /* Friend.h */,
+				EE60AD2F1D9037F3008B049A /* Friend.m */,
+				EEDE318B1D526F54001B4F89 /* FriendsTableViewController.h */,
+				EEDE318C1D526F54001B4F89 /* FriendsTableViewController.m */,
+				EE60AD311D903987008B049A /* SearchViewController.h */,
+				EE60AD321D903987008B049A /* SearchViewController.m */,
+				EE60AD3B1D903F0F008B049A /* Main.storyboard */,
 				EEDE31821D526F1E001B4F89 /* LaunchScreen.storyboard */,
+				EEDE31801D526F1E001B4F89 /* Assets.xcassets */,
 				EEDE31851D526F1E001B4F89 /* Info.plist */,
 				EEDE31741D526F1E001B4F89 /* Supporting Files */,
 			);
@@ -76,6 +96,7 @@
 		EEDE31741D526F1E001B4F89 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EE60AD391D903EF6008B049A /* luke.png */,
 				EEDE31751D526F1E001B4F89 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -107,7 +128,7 @@
 		EEDE31691D526F1E001B4F89 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "The Iron Yard";
 				TargetAttributes = {
 					EEDE31701D526F1E001B4F89 = {
@@ -138,8 +159,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE60AD3A1D903EF6008B049A /* luke.png in Resources */,
 				EEDE31841D526F1E001B4F89 /* LaunchScreen.storyboard in Resources */,
 				EEDE31811D526F1E001B4F89 /* Assets.xcassets in Resources */,
+				EE60AD3C1D903F0F008B049A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,9 +174,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEDE31901D5271BE001B4F89 /* APIController.m in Sources */,
+				EE60AD301D9037F3008B049A /* Friend.m in Sources */,
 				EEDE318D1D526F54001B4F89 /* FriendsTableViewController.m in Sources */,
 				EEDE31791D526F1E001B4F89 /* AppDelegate.m in Sources */,
+				EE60AD331D903987008B049A /* SearchViewController.m in Sources */,
 				EEDE31761D526F1E001B4F89 /* main.m in Sources */,
+				EE60AD361D903B06008B049A /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +211,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -229,8 +257,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -294,6 +324,7 @@
 				EEDE318A1D526F1E001B4F89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
